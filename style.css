@@ -42,7 +42,6 @@ h1 {
   font-weight: 900;
   line-height: 140%;
   letter-spacing: 0.02em;
-  /* margin-top: 96px; */
 }
 
 h2 {
@@ -84,7 +83,6 @@ p {
 
 .header_CTA {
   margin-top: 1rem ;
-  /* margin-bottom: 4rem; */
 }
 
 .CTA {
@@ -117,16 +115,35 @@ p {
   color: var(--black--400);
 }
 
-.project_description {
+.project_section {
   border: 1px solid var(--blue--200);
   border-radius: 4px;
+  margin-bottom: 33px;
+}
+
+.project_section_top {
+  border-bottom: 1px solid var(--blue--200);
+  padding: 16px;
 }
 
 .projects_img {
+  width: 550px;
 
+}
+
+.project_description {
+  padding: 16px;
+}
+
+.project_description a {
+  font-size: 1.125rem;
+  color: var(--blue--300);
+  font-weight: 700;
+  line-height: 180%;
 }
 
 .projects_p {
   font-size: 1rem;
   line-height: 27px;
+  margin-top: 8px;
 }
