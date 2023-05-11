@@ -46,7 +46,7 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  margin: 64px 0 47px 0;
+  /* margin: 64px 0 47px 0; */
   color: var(--black--900);
   font-weight: 800;
   line-height: 140%;
@@ -63,6 +63,22 @@ p {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 32px;
+}
+
+.header_rectangle {
+  position: relative;
+  margin: 64px 0 47px 0;
+}
+
+.rectangle {
+  width: 280px;
+  height: 48px;
+  background-color: var(--blue--100);
+  border-radius: 2px;
+  position: absolute;
+  top: 34px;
+  left: 80px;
+  z-index: -1;
 }
 
 .content {
@@ -128,7 +144,6 @@ p {
 
 .projects_img {
   width: 550px;
-
 }
 
 .project_description {
@@ -146,4 +161,31 @@ p {
   font-size: 1rem;
   line-height: 27px;
   margin-top: 8px;
+}
+
+footer {
+  background: var(--blue--100);
+  display: flex;
+  justify-content: center;
+}
+
+.footer_content {
+  margin: 28px 0;
+}
+
+.footer_content h3 {
+  text-align: center;
+}
+
+.social_btn {
+  text-align: center;
+  margin: 10px 0 30px;
+}
+
+.social_btn a {
+  margin: 0 20px;
+}
+
+.footer_CTA div:last-child {
+  margin-right: 0;
 }
