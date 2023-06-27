@@ -40,7 +40,10 @@ https://www.dopomogo.com/
 I'm open to collaborations, job opportunities, or any inquiries you may have. Feel free to reach out to me through the following channels:
 
 Email: [pushkareva.nataly@gmail.com]
-LinkedIn: [https://www.linkedin.com/in/natalygrin/]
-GitHub: [https://github.com/tomby5475]
+
+LinkedIn: https://www.linkedin.com/in/natalygrin/
+
+GitHub: https://github.com/tomby5475
+
 I look forward to connecting with you and discussing potential collaborations or projects. Thank you for visiting my portfolio!
 
