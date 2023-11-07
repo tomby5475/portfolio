@@ -3,7 +3,7 @@
 Welcome to my portfolio! I'm excited to share my projects and skills with you. Below, you'll find an overview of who I am and the projects I've worked on. Each project has its own dedicated readme file where I delve into the technologies and details. Let's dive in!
 
 ### About Me
-I'm a junior developer passionate about building innovative web solutions. With a solid foundation in web development and a thirst for learning, I'm constantly exploring new technologies and honing my skills. My goal is to contribute to meaningful projects and collaborate with talented individuals to create impactful solutions.
+I'm a Frontend developer passionate about building innovative web solutions. With a solid foundation in web development and a thirst for learning, I'm constantly exploring new technologies and honing my skills. My goal is to contribute to meaningful projects and collaborate with talented individuals to create impactful solutions.
 
 
 ### Projects
