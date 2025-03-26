@@ -20,7 +20,7 @@
     <meta name="twitter:title" content="Nataly Grin">
     <meta name="twitter:description" content="Front-end developer">
     <meta name="twitter:image" content="/src/images/social_preview_nataly.png">
-
+    <link rel="icon" type="image/png" href="/src/images/favicon.png">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,17 +29,22 @@
   </head>
   <body>
     <div class="content">
+      <!-- <img src="/src/images/sight.png" id="scope" alt="scope">
+      <img src="/src/images/bug-norm.png" id="bug" alt="bug">
+      <img src="/src/images/Bug-dead.png" id="bug" alt="dead bug">
+      <img src="/src/images/fire.png" id="fire" alt="fire">
+      <script src="script.js"></script> -->
       <header>
         <img src="./src/images/photo.png" class="foto" alt="foto">
         <h1>Nataly Grin,</h1>
-        <h3>Front-end developer</h3>
+        <h3>Frontend developer</h3>
           <p class="header_about">A project manager who has turned to a frontend developer.</p>
           <div class="header_CTA">
             <div class="CTA">
               <a href="mailto:pushkareva.nataly@gmail.com" class="btn"><img src="./src/images/send.svg" alt="mailIcon">Email me</a>
             </div>
             <div class="CTA">
-              <a href="https://calendly.com/pushkareva-nataly/interview" class="btn"><img src="./src/images/calendar-check.svg" alt="calendarIcon">Book a call</a>
+              <a target="_blank" href="https://calendly.com/pushkareva-nataly/interview" class="btn"><img src="./src/images/calendar-check.svg" alt="calendarIcon">Book a call</a>
             </div>
           </div>
       </header>
@@ -49,28 +54,73 @@
             <h2>About me</h2>
             <div class="rectangle"></div>
           </div>
-          <p>My curiosity is the main force of my career, because I'm always ready to learn and try to keep in touch with all modern trends and practices. I enjoy analytical work, looking for new opportunities and providing simple yet effective solutions to tasks. I follow my passion for coding and I'm excited about creating digital products. </p>
-          <p class="p_last">In my free time I enjoy sports: billiards, bouldering and tennis.</p>
+          <p>I've been a front-end developer for four years, continuously striving for growth, improvement, and knowledge sharing.</p>
+          <br>
+          <p>I worked on a variety of web projects, from simple websites to SPAs using React and Angular. I'm passionate about UX, clean code, pragmatic solutions and continuous learning.</p>
         </article>
         <article>
           <div class="header_rectangle">
             <h2>Current stack</h2>
             <div class="rectangle"></div>
           </div>
+          <div class="current_stack">
             <ul class="stack_li">
-              <li>Javascript (ES6)</li>
-              <li>MongoDB</li> 
-              <li>Express</li>
+              <li>Next.js</li>
               <li>React</li>
-              <li>NodeJS</li>
-              <li>HTML & CSS</li>
+              <li>TypeScript</li>
+              <li>Tailwind CSS</li>
+              <li>Angular</li>
+              <li>Storybook</li>
+              <li>React Query</li>
+              <li>Axios</li>
             </ul>
+            <ul class="stack_li">
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+              <li>Monorepo</li>
+              <li>Cloudinary</li>
+              <li>Figma</li>
+              <li>Monorepo</li>
+            </ul>
+          </div>
         </article>
         <article class="projects">
           <div class="header_rectangle">
             <h2>Projects</h2>
             <div class="rectangle"></div>
           </div>
+          <section class="project_section">
+            <div class="project_section_top">
+              <img src="./src/images/radia.png" alt="radia" class="projects_img">
+            </div>
+            <div class="project_description">
+              <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
+              <a target="_blank" href="https://www.radianetwork.org/">Radia Network</a>
+              <p class="projects_p">Radia–the inclusive tech network is a global community dedicated to advancing diversity and inclusion in the tech industry by providing mentorship, resources, and career opportunities for underrepresented groups.</p>
+            </div>
+          </section>
+          <section class="project_section">
+            <div class="project_section_top">
+              <img src="./src/images/grin.png" alt="Project's screenshot" class="projects_img">
+            </div>
+            <div class="project_description">
+              <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
+              <a target="_blank" href="https://vadimgrin.com/">Designer’s Personal Webste</a>
+              <p class="projects_p">This personal website is built with Next.js, using server-side rendering and static generation for optimal performance. Its minimalist design showcases efficient front-end development with a focus on accessibility and speed.</p>
+            </div>
+          </section>
+          <section class="project_section">
+            <div class="project_section_top">
+              <img src="./src/images/dopomogo.png" alt="dopomogo" class="projects_img">
+            </div>
+            <div class="project_description">
+              <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
+              <a target="_blank" href="https://www.dopomogo.com/">Dopomogo</a>
+              <p class="projects_p">The mission at Dopomogo is to help Ukrainians abroad. We work hard to preserve our national identity, remember who we are, where we are from, and create an atmosphere of sympathy and mutual assistance.</p>
+            </div>
+          </section>
           <section class="project_section">
             <div class="project_section_top">
               <img src="./src/images/digitutor@2x.png" alt="digitutor" class="projects_img">
@@ -101,33 +151,23 @@
               <p class="projects_p">A web application that allows users to search and discover different kinds of beers. It uses an API to fetch data and display information about each beer, such as its name, type, and alcohol content.</p>
             </div>
           </section>
-          <section class="project_section">
-            <div class="project_section_top">
-              <img src="./src/images/dopomogo@2x.png" alt="dopomogo" class="projects_img">
-            </div>
-            <div class="project_description">
-              <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
-              <a target="_blank" href="https://www.dopomogo.com/">Dopomogo</a>
-              <p class="projects_p">The mission at Dopomogo is to help Ukrainians abroad. We work hard to preserve our national identity, remember who we are, where we are from, and create an atmosphere of sympathy and mutual assistance.</p>
-            </div>
-          </section>
         </article>
       </main>
       <footer>
         <div class="footer_content">
           <h3>Let's be friends!</h3>
           <div class="social_btn">
-            <a href="https://www.facebook.com/natali.pushkareva.1/"><img src="./src/images/facebook-f.svg" alt="facebook"></a>
-            <a href="https://www.instagram.com/pushkareva_/"><img src="./src/images/instagram.svg" alt="instagram"></a>
-            <a href="https://www.linkedin.com/in/natalygrin/"><img src="./src/images/linkedin.svg" alt="linkedin"></a>
-            <a href="https://github.com/tomby5475"><img src="./src/images/github.svg" alt="github"></a>
+            <a target="_blank" href="https://www.facebook.com/natali.pushkareva.1/"><img src="./src/images/facebook-f.svg" alt="facebook"></a>
+            <a target="_blank" href="https://www.instagram.com/pushkareva_/"><img src="./src/images/instagram.svg" alt="instagram"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/natalygrin/"><img src="./src/images/linkedin.svg" alt="linkedin"></a>
+            <a target="_blank" href="https://github.com/tomby5475"><img src="./src/images/github.svg" alt="github"></a>
           </div>
           <div class="header_CTA footer_CTA">
             <div class="CTA">
               <a href="mailto:pushkareva.nataly@gmail.com" class="btn"><img src="./src/images/send.svg" alt="mailIcon">Email me</a>
             </div>
             <div class="CTA">
-              <a href="https://savvycal.com/natalygrin/94f121d7" class="btn"><img src="./src/images/calendar-check.svg" alt="calendarIcon">Book a call</a>
+              <a target="_blank" href="https://calendly.com/pushkareva-nataly/interview" class="btn"><img src="./src/images/calendar-check.svg" alt="calendarIcon">Book a call</a>
             </div>
           </div>
         </div>

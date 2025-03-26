@@ -66,7 +66,7 @@ p {
 
 .header_rectangle {
   position: relative;
-  margin: 64px 0 47px 0;
+  margin: 32px 0 47px 0;
 }
 
 .rectangle {
@@ -86,12 +86,12 @@ p {
 }
 
 .foto {
-  max-width: 20rem;
+  max-width: 17rem;
   margin: 65px 0 24px 0;
 }
 
 .header_about {
-  margin-top: 32px;
+  margin-top: 1.5rem;
 }
 
 .header_CTA {
@@ -124,12 +124,20 @@ p {
   margin-top: 25px;
 }
 
+.current_stack {
+  display: flex;
+  flex-direction: row;
+}
+
 .stack_li {
+  display: flex;
+  flex-direction: column;
   list-style: none;
   font-weight: 700;
   font-size: 1.125rem;
   line-height: 2rem;
   color: var(--black--400);
+  margin-right: 64px;
 }
 
 .project_section {
@@ -237,3 +245,26 @@ footer {
     margin: 0 10px;
   }
 }
+/*
+
+#scope {
+  width: 100px; /* Adjust size to match sight.png */
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+#bug {
+  width: 50px; /* Adjust size to match bug-norm.png */
+  position: absolute;
+  transition: left 0.1s linear, top 0.1s linear;
+}
+
+#fire {
+  width: 60px; /* Adjust size to match fire.png */
+  position: absolute;
+  display: none; /* Hidden by default */
+  pointer-events: none;
+} 
+
+*/
