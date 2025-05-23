@@ -35,9 +35,18 @@
     <div class="content">
       <header>
         <picture>
-          <source srcset="./src/images/photo.webp" type="image/webp" />
-          <img src="./src/images/photo.png" class="foto" alt="foto" loading="lazy" />
-        </picture>        
+          <source 
+            srcset="./src/images/photo.webp 1x, ./src/images/photo@2x.webp 2x" 
+            type="image/webp" 
+          />
+          <img 
+            src="./src/images/photo.png" 
+            srcset="./src/images/photo.png 1x, ./src/images/photo@2x.png 2x" 
+            class="foto" 
+            alt="foto" 
+            loading="lazy" 
+          />
+        </picture>       
         <h1>Nataly Grin,</h1>
         <h3>Frontend developer</h3>
           <p class="header_about">A project manager who has turned to a frontend developer.</p>
@@ -134,10 +143,9 @@
           </section>
           <section class="project_section">
             <div class="project_section_top">
-              <img src="./src/images/digitutor@2x.png" alt="digitutor" class="projects_img">
               <picture>
-                <source srcset="./src/images/dopomogo.webp" type="image/webp" />
-                <img src="./src/images/dopomogo.png" class="projects_img" alt="dopomogo" loading="lazy" />
+                <source srcset="./src/images/digitutor.webp" type="image/webp" />
+                <img src="./src/images/digitutor.png" class="projects_img" alt="digitutor" loading="lazy" />
               </picture>
             </div>
             <div class="project_description">
