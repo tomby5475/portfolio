@@ -25,17 +25,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="./src/images/photo.png" />
+    <link rel="stylesheet" href="style.min.css" />
+
+
     <title>Nataly Grin</title>
   </head>
   <body>
     <div class="content">
-      <!-- <img src="/src/images/sight.png" id="scope" alt="scope">
-      <img src="/src/images/bug-norm.png" id="bug" alt="bug">
-      <img src="/src/images/Bug-dead.png" id="bug" alt="dead bug">
-      <img src="/src/images/fire.png" id="fire" alt="fire">
-      <script src="script.js"></script> -->
       <header>
-        <img src="./src/images/photo.png" class="foto" alt="foto">
+        <picture>
+          <source srcset="./src/images/photo.webp" type="image/webp" />
+          <img src="./src/images/photo.png" class="foto" alt="foto" loading="lazy" />
+        </picture>        
         <h1>Nataly Grin,</h1>
         <h3>Frontend developer</h3>
           <p class="header_about">A project manager who has turned to a frontend developer.</p>
@@ -93,7 +95,10 @@
           </div>
           <section class="project_section">
             <div class="project_section_top">
-              <img src="./src/images/radia.png" alt="radia" class="projects_img">
+              <picture>
+                <source srcset="./src/images/radia.webp" type="image/webp" />
+                <img src="./src/images/radia.png" class="projects_img" alt="radia" loading="lazy" />
+              </picture>
             </div>
             <div class="project_description">
               <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
@@ -103,7 +108,10 @@
           </section>
           <section class="project_section">
             <div class="project_section_top">
-              <img src="./src/images/grin.png" alt="Project's screenshot" class="projects_img">
+              <picture>
+                <source srcset="./src/images/grin.webp" type="image/webp" />
+                <img src="./src/images/grin.png" class="projects_img" alt="Grin" loading="lazy" />
+              </picture>
             </div>
             <div class="project_description">
               <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
@@ -113,7 +121,10 @@
           </section>
           <section class="project_section">
             <div class="project_section_top">
-              <img src="./src/images/dopomogo.png" alt="dopomogo" class="projects_img">
+              <picture>
+                <source srcset="./src/images/dopomogo.webp" type="image/webp" />
+                <img src="./src/images/dopomogo.png" class="projects_img" alt="dopomogo" loading="lazy" />
+              </picture>
             </div>
             <div class="project_description">
               <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
@@ -124,6 +135,10 @@
           <section class="project_section">
             <div class="project_section_top">
               <img src="./src/images/digitutor@2x.png" alt="digitutor" class="projects_img">
+              <picture>
+                <source srcset="./src/images/dopomogo.webp" type="image/webp" />
+                <img src="./src/images/dopomogo.png" class="projects_img" alt="dopomogo" loading="lazy" />
+              </picture>
             </div>
             <div class="project_description">
               <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
