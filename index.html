@@ -24,11 +24,9 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&display=swap" rel="stylesheet">
     <link rel="preload" as="image" href="./src/images/photo.png" />
     <link rel="stylesheet" href="style.min.css" />
-
-
     <title>Nataly Grin</title>
   </head>
   <body>
@@ -44,7 +42,6 @@
             srcset="./src/images/photo.png 1x, ./src/images/photo@2x.png 2x" 
             class="foto" 
             alt="foto" 
-            loading="lazy" 
           />
         </picture>       
         <h1>Nataly Grin,</h1>
@@ -52,10 +49,10 @@
           <p class="header_about">A project manager who has turned to a frontend developer.</p>
           <div class="header_CTA">
             <div class="CTA">
-              <a href="mailto:natalygrin.dev@gmail.com" class="btn"><img src="./src/images/send.svg" alt="mailIcon">Email me</a>
+              <a href="mailto:natalygrin.dev@gmail.com" class="btn"><img src="./src/images/send.svg" alt="mailIcon" width="18" height="18">Email me</a>
             </div>
             <div class="CTA">
-              <a target="_blank" href="https://calendly.com/pushkareva-nataly/interview" class="btn"><img src="./src/images/calendar-check.svg" alt="calendarIcon">Book a call</a>
+              <a target="_blank" href="https://calendly.com/pushkareva-nataly/interview" class="btn"><img src="./src/images/calendar-check.svg" alt="calendarIcon" width="18" height="18.75">Book a call</a>
             </div>
           </div>
       </header>
@@ -105,12 +102,23 @@
           <section class="project_section">
             <div class="project_section_top">
               <picture>
-                <source srcset="./src/images/radia.webp" type="image/webp" />
-                <img src="./src/images/radia.png" class="projects_img" alt="radia" loading="lazy" />
-              </picture>
+                <source 
+                  srcset="./src/images/radia.webp 1x, ./src/images/radia@2x.webp 2x" 
+                  type="image/webp" 
+                />
+                <img 
+                  src="./src/images/radia.png" 
+                  srcset="./src/images/radia.png 1x, ./src/images/radia@2x.png 2x"
+                  height="294"
+                  width="518"
+                  class="projects_img" 
+                  alt="radia" 
+                  loading="lazy" 
+                />
+              </picture>              
             </div>
             <div class="project_description">
-              <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
+              <img src="./src/images/arrow-right-small.svg" alt="arrow-right" width="18" height="10">
               <a target="_blank" href="https://www.radianetwork.org/">Radia Network</a>
               <p class="projects_p">Radia–the inclusive tech network is a global community dedicated to advancing diversity and inclusion in the tech industry by providing mentorship, resources, and career opportunities for underrepresented groups.</p>
             </div>
@@ -118,12 +126,23 @@
           <section class="project_section">
             <div class="project_section_top">
               <picture>
-                <source srcset="./src/images/grin.webp" type="image/webp" />
-                <img src="./src/images/grin.png" class="projects_img" alt="Grin" loading="lazy" />
-              </picture>
+                <source 
+                  srcset="./src/images/grin.webp 1x, ./src/images/grin@2x.webp 2x" 
+                  type="image/webp" 
+                />
+                <img 
+                  src="./src/images/grin.png" 
+                  srcset="./src/images/grin.png 1x, ./src/images/grin@2x.png 2x" 
+                  height="294"
+                  width="518"
+                  class="projects_img" 
+                  alt="Grin" 
+                  loading="lazy" 
+                />
+              </picture>              
             </div>
             <div class="project_description">
-              <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
+              <img src="./src/images/arrow-right-small.svg" alt="arrow-right" width="18" height="10">
               <a target="_blank" href="https://vadimgrin.com/">Designer’s Personal Webste</a>
               <p class="projects_p">This personal website is built with Next.js, using server-side rendering and static generation for optimal performance. Its minimalist design showcases efficient front-end development with a focus on accessibility and speed.</p>
             </div>
@@ -131,12 +150,24 @@
           <section class="project_section">
             <div class="project_section_top">
               <picture>
-                <source srcset="./src/images/dopomogo.webp" type="image/webp" />
-                <img src="./src/images/dopomogo.png" class="projects_img" alt="dopomogo" loading="lazy" />
-              </picture>
+                <picture>
+                  <source 
+                    srcset="./src/images/dopomogo.webp 1x, ./src/images/dopomogo@2x.webp 2x" 
+                    type="image/webp" 
+                  />
+                  <img 
+                    src="./src/images/dopomogo.png" 
+                    srcset="./src/images/dopomogo.png 1x, ./src/images/dopomogo@2x.png 2x"
+                    height="294"
+                    width="518"
+                    class="projects_img" 
+                    alt="dopomogo" 
+                    loading="lazy" 
+                  />
+                </picture>                
             </div>
             <div class="project_description">
-              <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
+              <img src="./src/images/arrow-right-small.svg" alt="arrow-right" width="18" height="10">
               <a target="_blank" href="https://www.dopomogo.com/">Dopomogo</a>
               <p class="projects_p">The mission at Dopomogo is to help Ukrainians abroad. We work hard to preserve our national identity, remember who we are, where we are from, and create an atmosphere of sympathy and mutual assistance.</p>
             </div>
@@ -144,32 +175,71 @@
           <section class="project_section">
             <div class="project_section_top">
               <picture>
-                <source srcset="./src/images/digitutor.webp" type="image/webp" />
-                <img src="./src/images/digitutor.png" class="projects_img" alt="digitutor" loading="lazy" />
-              </picture>
+                <source 
+                  srcset="./src/images/digitutor.webp 1x, ./src/images/digitutor@2x.webp 2x" 
+                  type="image/webp" 
+                />
+                <img 
+                  src="./src/images/digitutor.png" 
+                  srcset="./src/images/digitutor.png 1x, ./src/images/digitutor@2x.png 2x"
+                  height="294"
+                  width="518"
+                  class="projects_img" 
+                  alt="digitutor" 
+                  loading="lazy" 
+                />
+              </picture>              
             </div>
             <div class="project_description">
-              <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
+              <img src="./src/images/arrow-right-small.svg" alt="arrow-right" width="18" height="10">
               <a target="_blank" href="https://github.com/tomby5475/digitutor">Digitutor</a>
               <p class="projects_p">It’s an online platform designed to help students learn and improve their skills. The platform includes a variety of tutors on topics such as History, Math, Biology. I utilized MongoDB to save user data. I also integrated Cloudinary to save profile pictures for users.</p>
             </div>
           </section>
           <section class="project_section">
             <div class="project_section_top">
-              <img src="./src/images/bayraktar@2x.png" alt="bayraktar" class="projects_img">
+              <picture>
+                <source 
+                  srcset="./src/images/bayraktar.webp 1x, ./src/images/bayraktar@2x.webp 2x" 
+                  type="image/webp" 
+                />
+                <img 
+                  src="./src/images/bayraktar.png" 
+                  srcset="./src/images/bayraktar.png 1x, ./src/images/bayraktar@2x.png 2x" 
+                  height="294"
+                  width="518"
+                  alt="bayraktar" 
+                  class="projects_img" 
+                  loading="lazy" 
+                />
+              </picture>              
             </div>
             <div class="project_description">
-              <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
+              <img src="./src/images/arrow-right-small.svg" alt="arrow-right" width="18" height="10">
               <a target="_blank" href="https://github.com/tomby5475/Bayraktar-game">Bayraktar</a>
               <p class="projects_p">A web-based game developed using the p5.js library. In the game, tanks move through the screen, and the player controls a scope to heat them up. The player can earn points for each tank they hit.</p>
             </div>
           </section>
           <section class="project_section">
             <div class="project_section_top">
-              <img src="./src/images/beer-app@2x.png" alt="beer_app" class="projects_img">
+              <picture>
+                <source 
+                  srcset="./src/images/beer-app.webp 1x, ./src/images/beer-app@2x.webp 2x" 
+                  type="image/webp" 
+                />
+                <img 
+                  src="./src/images/beer-app.png" 
+                  srcset="./src/images/beer-app.png 1x, ./src/images/beer-app@2x.png 2x"
+                  height="294"
+                  width="518"
+                  alt="beer_app" 
+                  class="projects_img" 
+                  loading="lazy" 
+                />
+              </picture>              
             </div>
             <div class="project_description">
-              <img src="./src/images/arrow-right-small.svg" alt="arrow-right">
+              <img src="./src/images/arrow-right-small.svg" alt="arrow-right" width="18" height="10">
               <a target="_blank" href="https://github.com/tomby5475/beer_app">Beer-app</a>
               <p class="projects_p">A web application that allows users to search and discover different kinds of beers. It uses an API to fetch data and display information about each beer, such as its name, type, and alcohol content.</p>
             </div>
@@ -187,10 +257,10 @@
           </div>
           <div class="header_CTA footer_CTA">
             <div class="CTA">
-              <a href="mailto:natalygrin.dev@gmail.com" class="btn"><img src="./src/images/send.svg" alt="mailIcon">Email me</a>
+              <a href="mailto:natalygrin.dev@gmail.com" class="btn"><img src="./src/images/send.svg" alt="mailIcon" width="18" height="18">Email me</a>
             </div>
             <div class="CTA">
-              <a target="_blank" href="https://calendly.com/pushkareva-nataly/interview" class="btn"><img src="./src/images/calendar-check.svg" alt="calendarIcon">Book a call</a>
+              <a target="_blank" href="https://calendly.com/pushkareva-nataly/interview" class="btn"><img src="./src/images/calendar-check.svg" alt="calendarIcon" width="18" height="18.75">Book a call</a>
             </div>
           </div>
         </div>
