@@ -15,7 +15,7 @@ html {
   --white--300: #E5E5E5;
   --blue--100: #E9F1FF;
   --blue--200: #CDDAEF;
-  --blue--300: #3B75E1;
+  --blue--300: #235FC8;
   --black--400:  #3D4450;
   --black--900: #27292E;
   --backgroundColor: var(#E5E5E5);
@@ -86,8 +86,9 @@ p {
 }
 
 .foto {
+  width: 100%;
   max-width: 17rem;
-  height: 284px;
+  height: auto;
   margin: 65px 0 24px 0;
 }
 
@@ -102,7 +103,7 @@ p {
 .CTA {
   display: inline-block;
   width: 181px;
-  background: var(--blue--300);
+  background-color: var(--blue--300);
   border-radius: 10px;
   font-weight: 900;
   font-size: 1.125rem;
@@ -194,9 +195,24 @@ footer {
   text-align: center;
   margin: 10px 0 30px;
 }
-
+/* 
 .social_btn a {
   margin: 0 20px;
+} */
+
+.social_btn a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.social_btn a img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  color: pink;
 }
 
 .footer_CTA div:last-child {
@@ -214,10 +230,6 @@ footer {
 
   header {
   max-width: 20.5rem;
-  }
-
-  .foto {
-   min-width: 100%;
   }
 
   .CTA {
@@ -249,26 +261,3 @@ footer {
     margin: 0 10px;
   }
 }
-/*
-
-#scope {
-  width: 100px; /* Adjust size to match sight.png */
-  position: absolute;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-}
-
-#bug {
-  width: 50px; /* Adjust size to match bug-norm.png */
-  position: absolute;
-  transition: left 0.1s linear, top 0.1s linear;
-}
-
-#fire {
-  width: 60px; /* Adjust size to match fire.png */
-  position: absolute;
-  display: none; /* Hidden by default */
-  pointer-events: none;
-} 
-
-*/
